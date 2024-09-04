@@ -114,6 +114,7 @@
   .pricing-table-header {
     background: #111;
     color: #fff;
+    min-height: 15em;
   }
   .pricing-table-header h2 {
     margin: 0;
@@ -217,3 +218,38 @@
       font-size: 3em;
     }
   }
+  .games-class {
+        min-height: 15em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-item: center;
+
+
+  }
+
+  .hidden-button {
+        display:block;
+        height:100%;
+        width:100%;
+  }
+
+  .bg1 {
+    background-image: url('./games.jpg');
+  }
+  .bg2 {
+    background-image: url('./games.jpg');
+  }
+  .bg3 {
+    background-image: url('./games.jpg');
+  }
+  .bg4 {
+    background-image: url('./games.jpg');
+  }
+  .bg5 {
+    background-image: url('./games.jpg');
+  }
+  .bg6 {
+    background-image: url('./games.jpg');
+  }
+
