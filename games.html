@@ -1,10 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous">
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A layout example that shows off a responsive pricing table.">
     <title>Pricing Table &ndash; Layout Examples &ndash; Pure</title>
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
     <link rel="stylesheet" href="./styles.css" />
@@ -15,23 +21,26 @@
         <a href="#" class="pure-menu-heading">Your Logo</a>
         <ul class="pure-menu-list">
             <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Games</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Music</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Simulations</a></li>
+            <li class="pure-menu-item"><a href="games.html#games" class="pure-menu-link">Games</a></li>
+            <li class="pure-menu-item"><a href="music.html" class="pure-menu-link">Music</a></li>
+            <li class="pure-menu-item"><a href="games.html#simulations" class="pure-menu-link">Simulations</a></li>
         </ul>
     </div>
-    
+
     <div
         style="display: flex; justify-content: center;">
-        <h1>All Games</h1>
+        <h1 id="page-title"></h1>
     </div>
-    <div class="pure-g">
 
+    <div class="container">
+    <div class="pure-g" id="content">
         <div class="pure-u-1-3 games-class bg1"><a class="hidden-button" href="testGame.html">Appelv1</a></div>
-        <div class="pure-u-1-3 games-class bg2"><p>g2</p></div>
-        <div class="pure-u-1-3 games-class bg3"><p>g3</p></div>
-        <div class="pure-u-1-3 games-class bg4"><p>g4</p></div>
-        <div class="pure-u-1-3 games-class bg5"><p>g5</p></div>
-        <div class="pure-u-1-3 games-class bg6"><p>g6</p></div>
     </div>
+    <div class="center" id="view">
+        <object></object>
+        <button id="#closeViewButton" onclick="closeView()">Close</button>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="./games2.js"></script>
 </html>
