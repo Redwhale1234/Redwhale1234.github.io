@@ -5,29 +5,29 @@
  body {
     color: #526066;
   }
-  
+
   h2,
   h3 {
     letter-spacing: 0.25em;
     text-transform: uppercase;
     font-weight: 600;
   }
-  
+
   p {
     line-height: 1.6em;
   }
-  
+
   /*
    * -- Layout Styles --
    */
   .l-content {
     margin: 0 auto;
   }
-  
+
   .l-box {
     padding: 0.5em 2em;
   }
-  
+
   /*
    * -- MENU STYLES --
    * Make the menu have a very faint box-shadow.
@@ -35,18 +35,18 @@
   .pure-menu {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-  
+
   .pure-menu-link {
     padding: 0.5em 0.7em;
   }
-  
+
   /*
    * -- BANNER --
    * The top banner with the headings. By using a combination
    * of `display: table;` and `display: table-cell;`, we can
    * vertically center the text.
    */
-  
+
   .banner {
     background: transparent
       url("https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg")
@@ -54,13 +54,13 @@
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
-  
+
     height: 200px;
     width: 100%;
     margin-bottom: 3em;
     display: table;
   }
-  
+
   .banner-head {
     display: table-cell;
     vertical-align: middle;
@@ -70,7 +70,7 @@
     font-weight: 500;
     text-shadow: 0 1px 1px black;
   }
-  
+
   /*
    * -- PRICING TABLE WRAPPER --
    * This element wraps up all the pricing table elements
@@ -84,7 +84,7 @@
     margin-bottom: 3.125em;
     text-align: center;
   }
-  
+
   /*
    * -- PRICING TABLE  --
    * Every pricing table has the .pricing-table class
@@ -94,7 +94,7 @@
     margin: 0 0.5em 2em;
     padding: 0 0 3em;
   }
-  
+
   /*
    * -- PRICING TABLE HEADER COLORS --
    * Choose a different color based on the type of pricing table.
@@ -102,11 +102,11 @@
   .pricing-table-free .pricing-table-header {
     background: #519251;
   }
-  
+
   .pricing-table-biz .pricing-table-header {
     background: #2c4985;
   }
-  
+
   /*
    * -- PRICING TABLE HEADER --
    * By default, a header is black/white, and has some styles for its <h2> name.
@@ -122,7 +122,7 @@
     font-size: 1em;
     font-weight: normal;
   }
-  
+
   /*
    * -- PRICING TABLE PRICE --
    * Styles for the price and the corresponding <span>per month</span>
@@ -141,7 +141,7 @@
     color: rgba(255, 255, 255, 0.5);
     *color: #fff;
   }
-  
+
   /*
    * -- PRICING TABLE LIST --
    * Each pricing table has a <ul> which is denoted by the .pricing-table-list class
@@ -152,7 +152,7 @@
     padding: 0;
     text-align: center;
   }
-  
+
   /*
    * -- PRICING TABLE LIST ELEMENTS --
    * Styles for the individual list elements within each pricing table
@@ -162,7 +162,7 @@
     background: #f7f7f7;
     border-bottom: 1px solid #e7e7e7;
   }
-  
+
   /*
    * -- PRICING TABLE BUTTON --
    * Styles for the "Choose" button at the bottom of a pricing table.
@@ -177,12 +177,12 @@
     position: relative;
     bottom: -1.5em;
   }
-  
+
   .information-head {
     color: black;
     font-weight: 500;
   }
-  
+
   .footer {
     background: #111;
     color: #888;
@@ -191,7 +191,7 @@
   .footer a {
     color: #ddd;
   }
-  
+
   /*
    * -- TABLET MEDIA QUERIES --
    * On tablets, we want to slightly adjust the size of the banner
@@ -205,7 +205,7 @@
       margin-bottom: 0;
     }
   }
-  
+
   /*
    * -- PHONE MEDIA QUERIES --
    * On phones, we want to reduce the height and font-size of the banner further
@@ -224,23 +224,23 @@
         display: flex;
         justify-content: center;
         align-item: center;
-        
+
         box-sizing: border-box;
         padding: 1em;
 
-        
+
   }
 
   .hidden-button {
         display:block;
         height:100%;
         width:100%;
-        
+
   }
 
   .bg1 {
     background-image: url('./games.jpg');
-    
+
   }
   .bg2 {
     background-image: url('./games.jpg');
@@ -264,16 +264,41 @@
 
   .project {
     overflow:auto;
-    border:5px; 
+    border:5px;
     display: flex;
     justify-content: center;
     margin: auto;
     border-style: solid;
-   
-
-
-          
-         
-
-    
   }
+
+.container {
+  position: relative;
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+  border:1px solid;
+  color: white;
+  background-color: #cccccc;
+}
+
+.center {
+  position: absolute;
+  background-color: #00bfa5;
+  width: 800px;
+  height: 600px;
+  left:  10%;
+  right: 10%;
+  bottom:10%;
+  top: 10%;
+  margin:10px;
+  padding:10px;
+  color: white;
+  font-size: large;
+   text-shadow: 2px 2px 5px red;
+    background-repeat: no-repeat;
+    background-size: cover;
+   border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  visibility: hidden;
+}
