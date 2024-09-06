@@ -19,12 +19,9 @@ class Game {
 
   toHTML() {
     return `
-      <div class="pure-u-1-3 games-class" style="background: url('${this.background}')" onClick="showItem('${this.title}')">
-        <h3>${this.title}</h3>
-        <p>${this.instructions}</p>
-        <!--p>${this.description}</p>
-        <p>${this.notes}</p>
-        <p>${this.credits}</p-->
+      <div class="pure-u-1-3 games-class" style="background: url('${this.background}')" ><a class="hidden-button game-simulation" href="testGame.html">${this.title}
+
+        </a>
       </div>
     `
   }
