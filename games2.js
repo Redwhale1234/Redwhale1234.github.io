@@ -7,19 +7,21 @@ class Game {
   notes;
   credits;
   background;
+  hashName;
 
-  constructor(title, instructions, description, notes, credits, background) {
+  constructor(title, instructions, description, notes, credits, background, hashName) {
     this.title=title;
     this.instructions=instructions;
     this.description=description;
     this.notes=notes;
     this.credits=credits;
     this.background=background;
+    this.hashName=hashName;
   }
 
   toHTML() {
     return `
-      <div class="pure-u-1-3 games-class" style="background: url('${this.background}')" ><a class="hidden-button game-simulation" href="testGame.html">${this.title}
+      <div class="pure-u-1-3 games-class game-simulation" style="background: url('${this.background}')" ><a class="hidden-button "href="testGame.html#${this.hashName}">${this.title}
 
         </a>
       </div>
@@ -36,7 +38,8 @@ function gamesArrayFrom(games) {
       gameInfo.description,
       gameInfo.notes,
       gameInfo.credits,
-      gameInfo.background
+      gameInfo.background,
+      gameInfo.hashName
     ));
   }
   return gamesArray;

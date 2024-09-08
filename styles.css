@@ -302,8 +302,12 @@
   box-shadow: 5px 10px 8px #888888;
   visibility: hidden;
 }
-.game-simulation a:link, a:visited{
+.game-simulation a:link, a:visited, a:active {
     color: white;
     text-decoration: none;
 
+}
+.game-simulation a:hover {
+    color: white;
+    text-decoration-line: underline;
 }

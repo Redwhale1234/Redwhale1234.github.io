@@ -53,4 +53,4 @@ for( var i = 0; i < songElements.length; i++ ){
   });
 }
 
-document.getElementById('large-visualization').style.height = document.getElementById('album-art').offsetWidth + 'px';
+//document.getElementById('large-visualization').style.height = document.getElementById('album-art').offsetWidth + 'px';

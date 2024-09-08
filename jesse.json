@@ -5,7 +5,8 @@
 			"description": "A simple, yet difficult tile-based platformer game with a level editor.",
 			"notes": "This game is hard. I haven't finished it yet. The goal was to create a template game for a tile-based platformer.",
 			"credits": "Code by me. Art by me. Music from Nintendo. SFX from me and Nintendo.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "COBIE"
 		},
 
 		"Robot Survival Game" : {
@@ -13,7 +14,8 @@
 			"description": "A wave-based survival game; parts skill and strategy. Fight close-range enemies with melee weapons and ranged enemies with ranged weapons.",
 			"notes": "My most finished game to date. I had a lot of fun making this, particularly with the wide range of weapons. Try to save enough money to get the lightsaber!",
       "credits": "Code by me. Art by me. SFX by me.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "RobotSurvival"
 
     },
 
@@ -22,7 +24,8 @@
 			"description": "A platformer boss based off a cool idea I had. In most cases, you would have to destroy the body triangles before you get to attack the core.",
 			"notes": "I am very happy with the end result. The effects make the experience all the more exciting.",
 			"credits": "Code by me. Art by me. SFX by me. Music by me.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "TriangleBoss"
 
 		},
 
@@ -31,7 +34,8 @@
 			"description": "This is my most finished game. It is both satistying and terrifying. It is easy to progess through the first levels, but each level is harder than the last.",
 			"notes": "This game was made with the challenge to only use assets from the Scratch Library.",
 			"credits": "Code by me, Art and SFX from the Scratch Library.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "SwimmingUpTheFoodChain"
 
 		}
 
@@ -44,7 +48,8 @@
 			"description": "Each image has a number of nodes. These nodes adjust their distance from the center of the image according to their specific angle. A straight line is drawn from each node to the next. Because of the limited number of nodes, they create beautiful patterns based off whatever equation is put.",
 			"notes": "I skimmed through my Calculus I textbook before the class started. In it, I discovered polar shapes. Later, I came across a cylindrical bowl with one of those polar shapes in the middle, formed by the reflection of the light across the round inside of the bowl. Fascinated, I decided to create a simulation based off polar coordinates. I am very happy with the result.",
 			"credits": "Code by me.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "PolarSpinningNodes"
 
 		},
 
@@ -53,7 +58,8 @@
 			"description": "This simulation makes fractals based off a specific number of branches, iterations, and angle. They usually end up looking like trees.",
 			"notes": "I have always enjoyed fractals and had wanted to create a simulation for a long time. One thing to note is that sometimes the simulation will not draw anything sometimes when it should. This is because as the number of iterations or branches increases, the time it takes to draw the simulation increases much faster; it has an exponential time complexity. If I took out the code that stopped the drawing, it would crash the browser.",
 			"credits": "Code by me.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "TreeFractals"
 
 		},
 
@@ -62,9 +68,12 @@
 			"description": "The image is made of little squares. Each square follows the same set of rules. The rules determine what color the pixel should be based off its position, the time, or the mouse position.",
 			"notes": "It was fun using different math equations and seeing how they would translate to the screen.",
 			"credits" : "Code by me.",
-			"background": "./games.jpg"
+			"background": "./games.jpg",
+			"hashName": "MathColorPatterns"
 
-		}
+		},
+
+}
 
 	},
 

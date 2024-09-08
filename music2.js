@@ -34,7 +34,11 @@ class Song {
           <span class="song-info">${this.description}</span>
           <span class="song-info">${this.notes}</span>
           <span class="song-artist">${this.credits}</span>
+
+
         </div>
+
+
 
         <span class="song-duration">${this.duration}</span>
       </div>
@@ -171,6 +175,8 @@ function initAmplitude(songsArray) {
           'play': function(){
               document.getElementById('album-art').style.visibility = 'hidden';
               document.getElementById('large-visualization').style.visibility = 'visible';
+              //$('#description').text((gameInfo)['description']);
+
           },
 
           'pause': function(){
@@ -191,6 +197,10 @@ $(document).ready(function(){
     var songsArray = songsArrayFrom(data.songs)
     initSongs(songsArray);
     initAmplitude(songsArray);
+
+    $('#description').text((gameInfo)['description']);
+    $('#notes').text((gameInfo)['notes']);
+    $('#credits').text((gameInfo)['credits']);
   });
 
 
