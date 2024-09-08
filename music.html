@@ -3,6 +3,9 @@
   <head>
     <title>AmplitudeJS Testing</title>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css">
+
     <!-- Include Style Sheet -->
     <link rel="stylesheet" type="text/css" href="./music.css"/>
 
@@ -16,6 +19,16 @@
 
   </head>
   <body>
+
+    <div class="pure-menu pure-menu-horizontal">
+        <a href="#" class="pure-menu-heading">Your Logo</a>
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item"><a href="index.html" class="pure-menu-link">Home</a></li>
+            <li class="pure-menu-item"><a href="games.html#games" class="pure-menu-link">Games</a></li>
+            <li class="pure-menu-item"><a href="music.html" class="pure-menu-link">Music</a></li>
+            <li class="pure-menu-item"><a href="games.html#simulations" class="pure-menu-link">Simulations</a></li>
+        </ul>
+    </div>
     <!-- Blue Playlist Container -->
     <div id="blue-playlist-container">
 
@@ -71,29 +84,17 @@
             </div>
 
             <div id="meta-container">
-              <span data-amplitude-song-info="name" class="song-name"></span>
+              <center><span data-amplitude-song-info="name" class="song-name"></center></span><br/>
 
-              <div class="song-artist-album">
-                <span data-amplitude-song-info="artist"></span>
-                <span data-amplitude-song-info="album"></span>
+              <div class="song-description-album">
+                <span data-amplitude-song-info="description"></span><br/><br/>
+                <span data-amplitude-song-info="notes"></span><br/><br/>
+                <span data-amplitude-song-info="credits"></span>
               </div>
             </div>
           </div>
 
-        <div class="pure-g">
-            
-
-            <div class="pure-u-1-1"><h4>Description</h4>
-                <h1= id="description"></h1>
-            </div>
-
-            <div class="pure-u-1-1"><h4>Notes</h4>
-                <h1= id="notes"></h1>
-            </div>
-            <div class="pure-u-1-1"><h4>Credits</h4>
-                <h1= id="credits"></h1>
-            </div>
-        </div>
+        
         </div>
         <!-- End Left Side Player -->
 
@@ -101,192 +102,7 @@
         <!-- Right Side Player -->
         <div id="amplitude-right">
 
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="0">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container"></div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Risin' High (feat Raashan Ahmad)</span>-->
-              <!--<span class="song-artist">Ancient Astronauts</span>-->
-            <!--</div>-->
-            <!--<a href="https://switchstancerecordings.bandcamp.com/track/risin-high-feat-raashan-ahmad" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">3:30</span>-->
-          <!--</div>-->
-
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="1">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">The Gun</span>-->
-              <!--<span class="song-artist">Lorn</span>-->
-            <!--</div>-->
-            <!--<a href="https://lorn.bandcamp.com/" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">3:16</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="2">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Anvil</span>-->
-              <!--<span class="song-artist">Lorn</span>-->
-            <!--</div>-->
-            <!--<a href="https://lorn.bandcamp.com/" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">3:32</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="3">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">I Came Running</span>-->
-              <!--<span class="song-artist">Ancient Astronauts</span>-->
-            <!--</div>-->
-            <!--<a href="https://switchstancerecordings.bandcamp.com/track/i-came-running" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">3:30</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="4">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">First Snow</span>-->
-              <!--<span class="song-artist">Emancipator</span>-->
-            <!--</div>-->
-            <!--<a href="https://emancipator.bandcamp.com" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">5:12</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="5">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Terrain</span>-->
-              <!--<span class="song-artist">pg.lost</span>-->
-            <!--</div>-->
-            <!--<a href="https://pglost.bandcamp.com/track/terrain" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">5:29</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="6">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Vorel</span>-->
-              <!--<span class="song-artist">Russian Circles</span>-->
-            <!--</div>-->
-            <!--<a href="https://russiancircles.bandcamp.com/track/vorel" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">5:29</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="7">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Intro / Sweet Glory</span>-->
-              <!--<span class="song-artist">Jimkata</span>-->
-            <!--</div>-->
-            <!--<a href="http://jimkata.bandcamp.com/track/intro-sweet-glory" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">2:39</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="8">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Offcut #6</span>-->
-              <!--<span class="song-artist">Little People</span>-->
-            <!--</div>-->
-            <!--<a href="https://littlepeople.bandcamp.com/track/offcut-6" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">1:00</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="9">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Dusk To Dawn</span>-->
-              <!--<span class="song-artist">Emancipator</span>-->
-            <!--</div>-->
-            <!--<a href="https://emancipator.bandcamp.com/track/dusk-to-dawn-2" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">5:25</span>-->
-          <!--</div>-->
-          <!--<div class="song amplitude-song-container amplitude-play-pause" data-amplitude-song-index="10">-->
-            <!--<div class="song-now-playing-icon-container">-->
-              <!--<div class="play-button-container">-->
-
-              <!--</div>-->
-              <!--<img class="now-playing" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/now-playing.svg"/>-->
-            <!--</div>-->
-            <!--<div class="song-meta-data">-->
-              <!--<span class="song-title">Anthem</span>-->
-              <!--<span class="song-artist">Emancipator</span>-->
-            <!--</div>-->
-            <!--<a href="https://emancipator.bandcamp.com/track/anthem" class="bandcamp-link" target="_blank">-->
-              <!--<img class="bandcamp-grey" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-grey.svg"/>-->
-              <!--<img class="bandcamp-white" src="https://521dimensions.com/img/open-source/amplitudejs/blue-player/bandcamp-white.svg"/>-->
-            <!--</a>-->
-            <!--<span class="song-duration">5:40</span>-->
-          <!--</div>-->
+          
         </div>
         <!-- End Right Side Player -->
 

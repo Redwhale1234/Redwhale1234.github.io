@@ -73,11 +73,11 @@ $(document).ready(function(){
     var gameKey=hash;
     var gameName = findTitleFromHashValue(games, gameKey);
     var gameInfo = findInfoFromHashValue(games, gameKey);
-    var gameUrl = hash + ".html"
+    var gameUrl =  hash + ".html"
     
 
     $('#gameTitle').text(gameName);
-    $('#gameObject').attr('data', gameUrl);
+    $('#gameObject').attr('data', "AllProjects/Games/" + gameUrl);
     $('#instructions').text((gameInfo)['instructions']);
     $('#description').text((gameInfo)['description']);
     $('#notes').text((gameInfo)['notes']);

@@ -71,7 +71,19 @@
 			"background": "./games.jpg",
 			"hashName": "MathColorPatterns"
 
+		},
+		"Spinning Circular Patterns" : {
+			"instructions": "Watch and enjoy. Press space to change the way it looks.",
+			"description": "Each node revolves around the center. The speed at which this happens is relative to the distance from the center.",
+			"notes": "Try to watch for a few minutes to see the simulation come full circle.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "SpinningCircularPatterns"
+
 		}
+
+		
+
 
 
 

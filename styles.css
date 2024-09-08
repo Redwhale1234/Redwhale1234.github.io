@@ -4,7 +4,23 @@
  */
  body {
     color: #526066;
+    
+
   }
+
+  .home-page {
+    background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
+  }
+  .games-page {
+    background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
+  }
+  .music-page {
+    background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
+  }
+  .simulations-page {
+    background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
+  }
+
 
   h2,
   h3 {
@@ -100,7 +116,7 @@
    * Choose a different color based on the type of pricing table.
    */
   .pricing-table-free .pricing-table-header {
-    background: #519251;
+    background-image: url("./games.jpg");
   }
 
   .pricing-table-biz .pricing-table-header {
@@ -310,4 +326,7 @@
 .game-simulation a:hover {
     color: white;
     text-decoration-line: underline;
+}
+.game-simulation-button  {
+    
 }
