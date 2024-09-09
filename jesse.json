@@ -90,23 +90,23 @@
 	},
 
 	"songs" : {
-		"Final Boss" : {
+		"Culminating Fight" : {
 		  "index": 0,
 			"description": "A looping orchestral rock song that could be used as a song for a final boss in a video game. It almost uses a full orchestra, and has some traditional Chinese and Japanese instruments.",
 			"notes": "This was the first song I made that I was fully satisfied with.",
 			"credits": "Music by me.",
 		  "duration": "3:15",
-		  "url": "./Hosanna.mp3",
+		  "url": "CulminatingFight",
 		  "coverArtUrl": "./Hosanna.jpg"
 		},
 
-		"Ghost Theme" : {
+		"Spectre Spectacle" : {
 		  "index": 1,
 			"description": "A looping song made that doesn't necessarily fit any genre, but I am very fond of it. The melody and instrument choices, particularly the toy piano and pipe organs, make it sound like a ghost theme. The drums add an interesting layer.",
 			"notes" : "This is my first song that changes time signatures. I like the way it transitions back from 3/4 to 4/4.",
 			"credits": "Song by me. Some inspiration from Nintendo.",
 		  "duration": "3:16",
-		  "url": "./Glory.mp3",
+		  "url": "SpectreSpectacle",
 		  "coverArtUrl": "./Glory.jpg"
 		},
 
@@ -116,9 +116,80 @@
 			"notes": "This is the first song that I wrote on guitar first.",
 			"credits" : "Music by me. Inspiration from Nintendo.",
 		  "duration": "3:17",
-		  "url": "./Amazing.mp3",
+		  "url": "ShopTheme",
 		  "coverArtUrl": "./Amazing.jpg"
 
+		},
+
+		"Wavering Woods" : {
+		  "index": 3,
+			"description": "A short song that I think best represents a video game area, particularly a 'dark' forest.",
+			"notes" : "Listen with headphones for the full experience. I had to do some tricks to get the violin solo working, as Garageband offers no violin solo instrument. Unfinished, so it ends somewhat abruptly.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "WaveringWoods",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+
+		"Dusk Above the Clouds" : {
+		  "index": 4,
+			"description": "A song that gives me the feeling of flying above the clouds during dusk on a cloudy day.",
+			"notes" : "Listen with headphones for the full experience. Unfinished, so it ends somewhat abruptly.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "DuskAboveTheClouds",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+
+		"Vello City" : {
+		  "index": 5,
+			"description": "A looping song that sounds like a race through a futuristic city.",
+			"notes" : "I experimented a lot with different effects for this one. I think it came out well.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "VelloCity",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+
+		"Evanescent" : {
+		  "index": 6,
+			"description": "An interesting song that doesn't fit any genre. The chiptune lead makes it really unique.",
+			"notes" : "The chiptune solo remains one of the best I have ever written. I also think the song ends pretty well.",
+			"credits": "Composed by me and Evan Kuo. Produced by me.",
+		  "duration": "3:16",
+		  "url": "Evanescent",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+
+		"RPG Battle Theme" : {
+		  "index": 7,
+			"description": "A video game retro-sounding song that sounds like battle theme from an RPG game.",
+			"notes" : "This is the most refined chiptune song I have made.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "RPGBattleTheme",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+		"The Cloud-Piercing Pillar" : {
+		  "index": 8,
+			"description": "A video game retro-sounding song that sounds to me like you are climbing a tower that reaches into the sky.",
+			"notes" : "The intro is among the best I have ever made. Listen to the rise and fall of the secondary melody (in the intro) and think about how it makes you feel. Unfinished, so it ends somewhat abruptly.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "TheCloud-PiercingPillar",
+		  "coverArtUrl": "./Glory.jpg"
+		},
+		"Lumino City" : {
+		  "index": 9,
+			"description": "A song that sounds like you walked into a bright, beautiful, bustling city for the first time.",
+			"notes" : "The instrument selection in this one fits the song really well. Unfinished, so it ends somewhat abruptly.",
+			"credits": "Song by me.",
+		  "duration": "3:16",
+		  "url": "LuminoCity",
+		  "coverArtUrl": "./Glory.jpg"
 		}
+
+	   
+
 	}
 }
