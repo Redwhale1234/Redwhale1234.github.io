@@ -115,7 +115,7 @@ function initAmplitude(songsArray) {
 $(document).ready(function(){
   var my_json;
   $.getJSON("./jesse.json", function(data) {
-    var songsArray = songsArrayFrom(data.songs)
+    var songsArray = songsArrayFrom(data.Songs)
     initSongs(songsArray);
     initAmplitude(songsArray);
 
