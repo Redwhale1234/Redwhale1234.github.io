@@ -1,5 +1,5 @@
 {
-	"games" : {
+	"Games" : {
 		"COBIE" : {
 			"instructions": "Use the arrow keys to move. Get to the right side of the screen to progress to the next level! Press Z to go into the level editor.",
 			"description": "A simple, yet difficult tile-based platformer game with a level editor.",
@@ -51,7 +51,7 @@
 
 	},
 
-	"simulations" : {
+	"Simulations" : {
 
 		"Polar Spinning Nodes" : {
 			"instructions": "watch and enjoy the satisfying patterns.",
@@ -164,7 +164,7 @@
 
 	},
 
-	"songs" : {
+	"Songs" : {
 		"Culminating Fight" : {
 		  "index": 0,
 			"description": "A looping orchestral rock song that could be used as a song for a final boss in a video game. It almost uses a full orchestra, and has some traditional Chinese and Japanese instruments.",
