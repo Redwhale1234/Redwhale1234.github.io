@@ -1,7 +1,7 @@
 {
 	"games" : {
 		"COBIE" : {
-			"instructions": "Use the arrow keys to move. Get to the right side of the screen to progress to the next level! Press Z to go into the level editor",
+			"instructions": "Use the arrow keys to move. Get to the right side of the screen to progress to the next level! Press Z to go into the level editor.",
 			"description": "A simple, yet difficult tile-based platformer game with a level editor.",
 			"notes": "This game is hard. I haven't finished it yet. The goal was to create a template game for a tile-based platformer.",
 			"credits": "Code by me. Art by me. Music from Nintendo. SFX from me and Nintendo.",
@@ -13,7 +13,7 @@
 			"instructions": "Defeat the robots attacking you to get more money. Use the money to buy blocks and weapons. Try to survive all the robots! W: move up, S: move down, A: move left, D: move right, Q: open block menu, E: open weapon menu, space: place block, mouse: aim and attack with weapon, or select option",
 			"description": "A wave-based survival game; parts skill and strategy. Fight close-range enemies with melee weapons and ranged enemies with ranged weapons.",
 			"notes": "My most finished game to date. I had a lot of fun making this, particularly with the wide range of weapons. Try to save enough money to get the lightsaber!",
-      "credits": "Code by me. Art by me. SFX by me.",
+		    "credits": "Code by me. Art by me. SFX by me.",
 			"background": "./games.jpg",
 			"hashName": "RobotSurvival"
 
@@ -37,7 +37,17 @@
 			"background": "./games.jpg",
 			"hashName": "SwimmingUpTheFoodChain"
 
+		},
+		"RPG Battle" : {
+			"instructions": "Attack your enemies and dodge their attacks! When picking options: click the buttons to choose. A button with an arrow on it is an action. When attacking or healing, mouse to aim, space to shoot. When dodging, use the arrow keys to dodge the attacks. If you selected 'strong wind' as your action for the party member currently dodging, press space to dodge.",
+			"description": "This is an Earthbound-style RPG battle, where you have to dodge physical attacks. I added the element of attacking physically as well.",
+			"notes": "Try to keep the healer (red banana) alive. Also, different party members have different actions and speeds.",
+			"credits": "Code by me, art from the Scratch Library and me.",
+			"background": "./games.jpg",
+			"hashName": "RBGBattle"
+
 		}
+		
 
 	},
 

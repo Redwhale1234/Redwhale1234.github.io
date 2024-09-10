@@ -21,7 +21,7 @@ class Game {
 
   toHTML() {
     return `
-      <div class="pure-u-1-3 games-class game-simulation" style="background: url('${this.background}')" ><a class="hidden-button "href="testGame.html#${this.hashName}">${this.title}
+      <div class="pure-u-1-3 games-class game-simulation" style="background: url('${this.background}'); background-size: auto auto; background-repeat: no-repeat; background-position: center; background-size: cover" ><a class="hidden-button "href="testGame.html#${this.hashName}">${this.title}
 
         </a>
       </div>
@@ -68,7 +68,7 @@ $(document).ready(function(){
   } else {
     hash = hash.substring(1);
   }
-  $('#page-title').text("All " + hash);
+  $('#page-title').text("All " + hash.charAt(0).toUpperCase() + hash.slice(1));
 
   var my_json;
   $.getJSON("./jesse.json", function(data) {
