@@ -46,10 +46,10 @@ $(document).ready(function(){
 
     $('#gameTitle').text(pageData.name);
     $('#gameObject').attr('data', "AllProjects/"+pageData.type+"/" + pageUrl);
-    $('#instructions').text((pageData.gameInfo)['instructions']);
-    $('#description').text((pageData.gameInfo)['description']);
-    $('#notes').text((pageData.gameInfo)['notes']);
-    $('#credits').text((pageData.gameInfo)['credits']);
+    $('#instructions').text((pageData.pageData)['instructions']);
+    $('#description').text((pageData.pageData)['description']);
+    $('#notes').text((pageData.pageData)['notes']);
+    $('#credits').text((pageData.pageData)['credits']);
 
 
   })
