@@ -46,6 +46,7 @@ function gamesArrayFrom(games) {
 }
 
 function initGames(gamesArray) {
+  $('.game-simulation').remove()
   gamesArray.forEach((game) => {
     $('#content').append(game.toHTML())
   })
