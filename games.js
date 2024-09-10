@@ -11,7 +11,7 @@ function loadData() {
 
 
 function findTitleFromHashValue(projectData, hashValue) {
-    for (const projectType of projectData) {
+    for (const [type, projectType] of Object.entries(projectData)) {
         
         for (const [name, project] of Object.entries(projectType)) {
         console.log(project);
