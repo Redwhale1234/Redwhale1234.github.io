@@ -49,7 +49,7 @@ class Song {
       "description": "Description: " + this.description,
       "notes": "Notes: " + this.notes,
       "credits": "Credits: " + this.credits,
-      "url": "/AllProjects/Songs/" + this.url + ".m4a",
+      "url": "/AllProjects/Songs/" + this.url + ".mp3",
       "cover_art_url":this.coverArtUrl
     }
   }
