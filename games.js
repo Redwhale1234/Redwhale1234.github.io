@@ -40,6 +40,21 @@ function findInfoFromHashValue(projectData, hashValue) {
     return null;
 }
 
+function findTypeFromTitle(projectData, hashValue) {
+    for (const projectType of projectData) {
+        
+        for (const [name, project] of Object.entries(projectType)) {
+        console.log(project);
+            
+            if (project.hashName && (project.hashName == hashValue)) {
+                return project;
+                
+            }
+        }
+    }
+    return null;
+}
+
 
 $(document).ready(function(){
 
@@ -68,7 +83,7 @@ $(document).ready(function(){
   $('#gameTitle').text(hash);
  
     
-    /* The error is that it is passing gameKey when it needs to be passing the name*/
+    
 
     var gameKey=hash;
     var gameName = findTitleFromHashValue(games, gameKey);
@@ -77,7 +92,7 @@ $(document).ready(function(){
     
 
     $('#gameTitle').text(gameName);
-    $('#gameObject').attr('data', "AllProjects/Games/" + gameUrl);
+    $('#gameObject').attr('data', "AllProjects/"+"Games"+"/" + gameUrl);
     $('#instructions').text((gameInfo)['instructions']);
     $('#description').text((gameInfo)['description']);
     $('#notes').text((gameInfo)['notes']);

@@ -53,6 +53,16 @@
 
 		},
 
+		"Big Polar Spinning Nodes" : {
+			"instructions": "watch and enjoy the satisfying patterns. Press Space to change the pattern.",
+			"description": "Each image has a number of nodes. These nodes adjust their distance from the center of the image according to their specific angle. A straight line is drawn from each node to the next. Because of the limited number of nodes, they create beautiful patterns based off whatever equation is put.",
+			"notes": "I skimmed through my Calculus I textbook before the class started. In it, I discovered polar shapes. Later, I came across a cylindrical bowl with one of those polar shapes in the middle, formed by the reflection of the light across the round inside of the bowl. Fascinated, I decided to create a simulation based off polar coordinates. I am very happy with the result.",
+			"credits": "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "BigPolarSpinningNodes"
+
+		},
+
 		"Tree Fractals" : {
 			"instructions": "Watch and enjoy. Slide the sliders to create different patterns.",
 			"description": "This simulation makes fractals based off a specific number of branches, iterations, and angle. They usually end up looking like trees.",
@@ -80,7 +90,62 @@
 			"background": "./games.jpg",
 			"hashName": "SpinningCircularPatterns"
 
+		},
+		"Dynamic Polygons" : {
+			"instructions": "Watch and enjoy",
+			"description": "This animation has moving polygons that resize. It is relaxing to watch.",
+			"notes": "This is more of an animation, but since it is heavily based off math, I categorized it as a simulation.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "DynamicPolygons"
+
+		},
+		"Fighting Circles" : {
+			"instructions": "Watch and enjoy.",
+			"description": "The circles go for their nearest enemy and attack.",
+			"notes": "There is a 0.1% chance of a circle mutating into a giant circle.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "FightingCircles"
+
+		},
+		"BOIDS (Bird-oid Objects)" : {
+			"instructions": "Watch and enjoy. Use the arrow keys and space to control the predator and try to catch a boid. Press Z to show or hide controls. Slide the sliders to change the way the boids behave.",
+			"description": "These boids are based after the behavior of real-life creatures such as a flock of birds or a school of fish.",
+			"notes": "It was really fun (albeit hard) to make this work, as simulations based off real phenomena are me favorite types of simulations.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "BOIDS",
+			
+
+		},
+		"Pathfinding Arrows" : {
+			"instructions": "Watch and enjoy. click to make a blank space.",
+			"description": "To summarize, the blue square sends out directions for the orange ones to follow.",
+			"notes": "Understanding how the algorithm worked was harder than the coding part.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "PathfindingArrows"
+		},
+		"Pixel Color Patterns" : {
+			"instructions": "Watch and enjoy. Slide the slider to change the pattern.",
+			"description": "The color and brightness of the pixels are based after their x and y positions and a time variable. Different math equations determine the different patterns.",
+			"notes": "There are infinite possibilities for this one. I chose some of my favorites.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "PixelColorPatterns"
+		},
+		"Inertia Force Balls" : {
+			"instructions": "Watch and enjoy. Press B to create a ball at the mouse. Press keys 1-6 to change the brush, and click to draw.",
+			"description": "A simple, but satisfying simulation of balls that act under forces and inertia.",
+			"notes": "Though it took an extremely short time to make, it still is fun to play around with.",
+			"credits" : "Code by me.",
+			"background": "./games.jpg",
+			"hashName": "InertiaForceBalls"
 		}
+
+
+
 
 		
 

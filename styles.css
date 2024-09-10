@@ -10,6 +10,8 @@
 
   .home-page {
     background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
+    //background-image: url("AllProjects/Simulations/DynamicPolygons");
+
   }
   .games-page {
     background-image: linear-gradient(-226deg, #3BD2AE 0%, #4036c2 100%);
