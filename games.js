@@ -22,6 +22,10 @@ function findTitleFromHashValue(projectData, hashValue) {
   return null;
 }
 
+function capitalizeFirstLetter(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 $(document).ready(function(){
 
   $.getJSON("./jesse.json", function(data) {
@@ -45,7 +49,7 @@ $(document).ready(function(){
     var pageUrl  = hash + ".html"
 
     $('#gameTitle').text(pageData.name);
-    $('#gameObject').attr('data', "AllProjects/"+pageData.type+"/" + pageUrl);
+    $('#gameObject').attr('data', "AllProjects/"+capitalizeFirstLetter(pageData.type)+"/" + pageUrl);
     $('#instructions').text((pageData.pageData)['instructions']);
     $('#description').text((pageData.pageData)['description']);
     $('#notes').text((pageData.pageData)['notes']);
