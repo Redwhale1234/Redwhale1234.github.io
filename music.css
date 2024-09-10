@@ -33,6 +33,9 @@ div#amplitude-left {
   display: flex;
   flex-direction: column; }
   div#amplitude-left img.album-art {
+    min-height: 15em;
+    background-position: center;
+    background-size: contain;
     width: 100%; }
   div#amplitude-left div#player-left-bottom {
     flex: 1;
@@ -66,7 +69,8 @@ div#amplitude-right {
       margin-right: 10px; }
       div#amplitude-right div.song div.song-now-playing-icon-container img.now-playing {
         display: none;
-        margin-top: 15px; }
+        //margin-top: 15px; 
+        }
     div#amplitude-right div.song div.play-button-container {
       display: none;
       background: url("https://521dimensions.com/img/open-source/amplitudejs/blue-player/list-play-light.png") no-repeat;
