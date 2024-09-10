@@ -60,7 +60,7 @@ function closeView() {
   $('#view').css("visibility", "hidden");
 }
 
-$(document).ready(function(){
+function loadPage(data) {
   var hash = $(location).attr('hash')
 
   if(!hash) {
@@ -70,12 +70,19 @@ $(document).ready(function(){
   }
   $('#page-title').text("All " + hash);
 
-  var my_json;
+  var gamesArray = gamesArrayFrom(data[hash])
+  initGames(gamesArray);
+}
+
+function setupPageListener(data) {
+  window.addEventListener( "hashchange", () => {
+    loadPage(data);
+  }, false,);
+}
+
+$(document).ready(function(){
   $.getJSON("./jesse.json", function(data) {
-    var gamesArray = gamesArrayFrom(data[hash])
-    initGames(gamesArray);
+    loadPage(data);
+    setupPageListener(data);
   });
-
-
-
 });
