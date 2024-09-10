@@ -44,7 +44,7 @@
 			"notes": "Try to keep the healer (red banana) alive. Also, different party members have different actions and speeds.",
 			"credits": "Code by me, art from the Scratch Library and me.",
 			"background": "./games.jpg",
-			"hashName": "RBGBattle"
+			"hashName": "RPGBattle"
 
 		}
 		
@@ -83,13 +83,13 @@
 
 		},
 
-		"Math Color Patterns" : {
+		"Pixel Color Patterns" : {
 			"instructions": "Watch and enjoy. Slide the sliders to look at different patterns or change the resolution.",
 			"description": "The image is made of little squares. Each square follows the same set of rules. The rules determine what color the pixel should be based off its position, the time, or the mouse position.",
 			"notes": "It was fun using different math equations and seeing how they would translate to the screen.",
 			"credits" : "Code by me.",
 			"background": "./games.jpg",
-			"hashName": "MathColorPatterns"
+			"hashName": "PixelColorPatterns"
 
 		},
 		"Spinning Circular Patterns" : {
