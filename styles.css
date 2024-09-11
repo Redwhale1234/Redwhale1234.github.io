@@ -120,7 +120,10 @@
    * Choose a different color based on the type of pricing table.
    */
   .home-games-button .pricing-table-header {
-    background: url("games.jpg");
+    background: url("Thumbnails/COBIE.png");
+        background-position: center;
+    background-size: cover;
+    
 
     
 
@@ -130,20 +133,28 @@
 
   .home-music-button .pricing-table-header {
 
-    background: url("games.jpg");
+    background: url("Thumbnails/Music.png");
+        background-position: center;
+    background-size: cover;
   }
 
 
   .home-simulations-button .pricing-table-header {
 
-    background: url("games.jpg");
+    background: url("Thumbnails/BigPolarSpinningNodes.png");
+        background-position: center;
+    background-size: cover;
   }
   /*
    * -- PRICING TABLE HEADER --
    * By default, a header is black/white, and has some styles for its <h2> name.
    */
   .pricing-table-header {
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     background: #111;
+    background-position: center;
+    background-size: cover;
     color: #fff;
     min-height: 15em;
     background
@@ -157,6 +168,7 @@
 
         box-sizing: border-box;
         padding: 1em
+
   }
   .pricing-table-header h2 {
     margin: 0;
@@ -347,15 +359,36 @@
   box-shadow: 5px 10px 8px #888888;
   visibility: hidden;
 }
+
+.game-simulation {
+
+
+}
+
+.shadow-text{
+      color: #ffffff; /* White text for dark images */
+  text-shadow: 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black, 0px 0px 10px black; /* Text shadow for depth */
+
+}
+.pure-g .pure-g--gutter > div > * {
+    margin: 0 0.5rem;
+}
 .game-simulation a:link, a:visited, a:active {
     color: white;
     text-decoration: none;
+    text-decoration:underline overline transparent;
 
 }
 .game-simulation a:hover {
     color: white;
     text-decoration-line: underline;
+    text-decoration:underline overline transparent;
 }
 .game-simulation-button  {
     
 }
+
+.page-title {
+    color: white;
+}
+

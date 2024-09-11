@@ -22,7 +22,7 @@ class Game {
   toHTML() {
 
     return `
-      <div class="pure-u-1-3 games-class game-simulation" style="background: url('./Thumbnails/${this.hashName}.png'); background-size: auto auto; background-repeat: no-repeat; background-position: center; background-size: cover" ><a class="hidden-button "href="testGame.html#${this.hashName}">${this.title}
+      <div class="pure-u-1-3 games-class game-simulation shadow-text" style="background: url('./Thumbnails/${this.hashName}.png'); background-size: auto auto; background-repeat: no-repeat; background-position: center; background-size: cover" ><a class="hidden-button "href="testGame.html#${this.hashName}">${this.title}
 
         </a>
       </div>
