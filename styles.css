@@ -68,9 +68,7 @@
    */
 
   .banner {
-    background: transparent
-      url("https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg")
-      0 0 no-repeat fixed;
+    background: transparent;
     text-align: center;
     background-size: cover;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://24.media.tumblr.com/ccb268832580ac12951828a1c179de69/tumblr_mo2xbk8JUK1st5lhmo1_1280.jpg', sizingMethod='scale');
@@ -99,10 +97,12 @@
   .information {
     max-width: 980px;
     margin: 0 auto;
+
   }
   .pricing-tables {
     margin-bottom: 3.125em;
     text-align: center;
+        padding-bottom: 10em;
   }
 
   /*
@@ -137,6 +137,7 @@
     background: url("Thumbnails/Music.png");
         background-position: center;
     background-size: cover;
+    background-width: 15em;
   }
 
 
@@ -158,17 +159,14 @@
     background-size: cover;
     color: #fff;
     min-height: 15em;
-    background
-            min-height: 15em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-item: center;
 
-
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-item: center;
-
-        box-sizing: border-box;
-        padding: 1em
+    box-sizing: border-box;
+    padding: 1em;
+        
 
   }
   .pricing-table-header h2 {
