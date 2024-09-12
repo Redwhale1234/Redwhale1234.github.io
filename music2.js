@@ -38,7 +38,7 @@ class Song {
 
 
 
-        <span class="duration">${this.duration}</span>
+        
       </div>
     `
   }
